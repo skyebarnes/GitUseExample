@@ -12,6 +12,7 @@
 		C379F2902524E33600509C5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C379F28E2524E33600509C5D /* Main.storyboard */; };
 		C379F2922524E33700509C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C379F2912524E33700509C5D /* Assets.xcassets */; };
 		C379F2952524E33700509C5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C379F2932524E33700509C5D /* LaunchScreen.storyboard */; };
+		C379F2A32524F11100509C5D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C379F2A22524F11100509C5D /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C379F2912524E33700509C5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C379F2942524E33700509C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C379F2962524E33700509C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C379F2A22524F11100509C5D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		C379F27E2524E33600509C5D = {
 			isa = PBXGroup;
 			children = (
+				C379F2A12524ED0C00509C5D /* Git */,
 				C379F2892524E33600509C5D /* GitUseExample */,
 				C379F2882524E33600509C5D /* Products */,
 			);
@@ -62,6 +65,14 @@
 				C379F2962524E33700509C5D /* Info.plist */,
 			);
 			path = GitUseExample;
+			sourceTree = "<group>";
+		};
+		C379F2A12524ED0C00509C5D /* Git */ = {
+			isa = PBXGroup;
+			children = (
+				C379F2A22524F11100509C5D /* .gitignore */,
+			);
+			path = Git;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C379F2A32524F11100509C5D /* .gitignore in Resources */,
 				C379F2952524E33700509C5D /* LaunchScreen.storyboard in Resources */,
 				C379F2922524E33700509C5D /* Assets.xcassets in Resources */,
 				C379F2902524E33600509C5D /* Main.storyboard in Resources */,
@@ -289,7 +301,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.friscoisd.k12.GitUseExample;
+				PRODUCT_BUNDLE_IDENTIFIER = org.friscoisd.k12.GitUseExample259087;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +319,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.friscoisd.k12.GitUseExample;
+				PRODUCT_BUNDLE_IDENTIFIER = org.friscoisd.k12.GitUseExample259087;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
